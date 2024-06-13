@@ -1,0 +1,48 @@
+@media (max-width: 700px){
+    main .communities {
+        flex-direction: column;
+    }
+
+    main .ready a {
+        width: 50%;
+    }
+
+    main .build_community {
+        margin: 6em 0;
+    }
+
+    .skills .skills_inner .display {
+        width: 100%;
+        flex-basis: 100%;
+      }    
+
+      footer{
+          flex-direction: column;
+      }
+}
+
+@media (max-width: 500px){
+    nav header{
+        flex-direction: column;
+    }
+
+    main .grow_together .left, .right{
+        flex-direction: column;
+    }
+/* 
+    main .build_community h1{
+        margin: 7em 0 0 0;
+    } */
+
+    main .build_community{
+        margin: 10em 0;
+    }
+
+    main .build_community p{
+        width: 100%;
+    }
+
+    main .ready a{
+        width: 100%;
+    }
+}
